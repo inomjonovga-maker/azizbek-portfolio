@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AZIZBEK INOMJONOV | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101426;
+      color: white;
+    }
+    header {
+      padding: 25px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #171e35;
+    }
+    header h2 { color: #8d7aff; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 { font-size: 45px; }
+    .hero span { color: #8d7aff; }
+    .hero p {
+      color: #b8bfd4;
+      line-height: 1.8;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 25px;
+      background: #7357f6;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+    section {
+      padding: 55px 8%;
+      text-align: center;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1c2540;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: left;
+    }
+    .card p { color: #b8bfd4; line-height: 1.6; }
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #171e35;
+      color: #b8bfd4;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>AZIZBEK INOMJONOV</h2>
+  <nav>
+    <a href="#home">Bosh sahifa</a>
+    <a href="#projects">Loyihalar</a>
+    <a href="#about">Men haqimda</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>Salom! Men <span>Azizbek</span></h1>
+  <p>AI, IT, dasturlash va innovatsion loyihalar olamiga xush kelibsiz.</p>
+  <a href="#projects" class="button">Loyihalarimni ko‘rish</a>
+</div>
+
+<section id="projects">
+  <h1>Mening loyihalarim</h1>
+  <div class="projects">
+    <div class="card">
+      <h2>AI CARD</h2>
+      <p>Sun’iy intellekt asosidagi fintech startap konsepsiyasi.</p>
+    </div>
+    <div class="card">
+      <h2>AI Explorer</h2>
+      <p>Sun’iy intellekt imkoniyatlarini o‘rganuvchi loyiha.</p>
+    </div>
+    <div class="card">
+      <h2>Mobil ilovalar</h2>
+      <p>Android va Flutter asosida yaratiladigan ilovalar.</p>
+    </div>
+    <div class="card">
+      <h2>Maqolalar</h2>
+      <p>Texnologiya va sun’iy intellekt haqidagi maqolalar.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h1>Men haqimda</h1>
+  <p>Men IT va sun’iy intellekt yo‘nalishida bilim va tajribamni rivojlantiraman.</p>
+</section>
+
+<footer>
+  © 2026 AZIZBEK INOMJONOV. Barcha huquqlar himoyalangan.
+</footer>
+
+</body>
+</html>
